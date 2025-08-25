@@ -34,6 +34,6 @@ RUN  pip install django==3.2
 
 COPY . .
 
-EXPOSE 8001
+EXPOSE 9001
                                                        
-CMD ["python","manage.py","runserver","0.0.0.0:8001"]  
+CMD ["python","manage.py","runserver","0.0.0.0:9001"]  
